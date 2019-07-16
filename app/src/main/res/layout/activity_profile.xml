@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_weight="5"
+            android:contentDescription="@string/profile_picture"
+            android:src="@drawable/ben"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/myName"
+            android:layout_weight="1"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_height="0dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@android:color/darker_gray"
+        android:layout_height="2dp"/>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_weight="2"
+           android:orientation="vertical"
+           android:padding="16dp"
+           android:layout_height="0dp">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:textSize="16sp"
+               android:text="@string/track_android"
+               android:layout_marginBottom="10dp"
+               android:layout_height="wrap_content" />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:textSize="16sp"
+               android:layout_marginBottom="10dp"
+               android:text="@string/country_nigeria"
+               android:layout_height="wrap_content" />
+           <TextView
+               android:layout_width="match_parent"
+               android:textSize="16sp"
+               android:layout_marginBottom="10dp"
+               android:text="@string/email"
+               android:layout_height="wrap_content" />
+           <TextView
+               android:layout_width="match_parent"
+               android:textSize="16sp"
+               android:layout_marginBottom="10dp"
+               android:text="@string/phone_number"
+               android:layout_height="wrap_content" />
+           <TextView
+               android:layout_width="match_parent"
+               android:textSize="16sp"
+               android:layout_marginBottom="10dp"
+               android:text="@string/slack_username"
+               android:layout_height="wrap_content" />
+
+
+
+       </LinearLayout>
+</LinearLayout>
